@@ -8,20 +8,6 @@
     <title>Conversor de temperatura</title>
     <!-- No head utilizamos além dessa informações, links para conectar arquivos -->
 </head>
-<script>
-    function Converter() {
-        var tempElemento = document.getElementById("temp");
-        var temp = tempElemento.value;
-        var tempEmCelsius = parseFloat(temp);
-
-        var tempEmFahrenheit = (tempEmCelsius * 9/5) + 32 ;
-        console.log(tempEmFahrenheit);
-
-        var elementoTempConvertida = document.getElementById("tempConvertida");
-        var tempConvertida = tempEmFahrenheit + "ºF";
-        elementoTempConvertida.innerHTML = tempConvertida;
-}
-</script>
 <body>
     <div class="container">
         <h1 class="page-title">
@@ -30,12 +16,12 @@
         <p class="page-subtitle">
             Descubra a temperatura em Fahrenheit
         </p>
-        <img src="/temperatura/fahr.png" class="page-logo" alt=""><br><br>
+        <img src="fahr.png" class="page-logo" alt=""><br><br>
         <label for="temperatura"> Insira a temperatura</label><br>
         <input type="number" id="temp" size="2" /><br>
         <button type="submit" onclick="Converter()">Converter</button>
         <h2 id="tempConvertida"></h2>
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
