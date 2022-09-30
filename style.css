@@ -1,0 +1,49 @@
+body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    min-height: 400px;
+    background-color: rgb(87, 98, 253);
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: rgb(177, 253, 241);
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: rgb(177, 253, 241);
+    margin-top: 5px;
+}
+
+
+
+input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+label {
+    color: rgb(177, 253, 241);
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: rgb(177, 253, 241);
+}
+
+h2 {
+    color: rgb(0, 0, 36);
+    font-size: 30px;
+}
